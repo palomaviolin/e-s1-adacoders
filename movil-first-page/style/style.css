@@ -1,0 +1,272 @@
+*{  
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title-adacoders {
+    position: fixed;
+    display: flex; 
+    width: 100%;
+    height: 60px;
+    background-color: #099d8d;
+    opacity: 0.94;  
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+.nav-links {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 45px;
+    transform: translate(0, 60px);
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #14d9c4;
+    opacity: 0.94;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu {
+    color: white;
+    text-decoration: none;
+}
+
+.img-team{
+    height: 421px;
+    width: 100%;
+    background: url(../photo/team-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.img-contact {
+    height: 421px;
+    width: 100%;
+    background: url(../photo/contact-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.claim {
+     padding: 15px;
+     margin: -25px 15px 15px 15px;
+     background-color: #fff;
+     text-align: center;
+}
+
+.nav-menu:hover {
+    font-weight: bolder;
+    display: inline-block;
+    transform: scale(1.3);
+}
+
+/*aqui seccion TEAM*/ 
+
+.first-section {
+    text-align: center;
+}
+
+.team {
+    font-family: 'Rubik', sans-serif;
+    color: #099D8D;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    color: #54585A;
+    font-size: 18px;
+    margin: 0 20px 30px;
+}
+
+#team {
+    position: relative;
+    top: -100px;
+}
+
+
+/**Start strengths_weaknesses code**/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container_strengths_weaknesses{
+   background-color:#f1f1f1;  
+   height: 100%;
+   overflow:hidden;
+}
+
+.title_strengths_weaknesses{
+    color:#099D8D;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text_strengths_weaknesses{
+    color:#54585A;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box_strengths{
+    box-sizing: border-box;
+    margin: 30px;
+    text-align: center;
+}
+
+.box_weaknesses{
+    box-sizing: border-box;
+    margin: 0px 20px 45px;
+    text-align: center;
+}
+
+.triangle{
+    border-left-color:rgb(241, 241, 241);
+    border-left-style:solid;
+    border-left-width:15px;
+    border-right-color:rgb(241, 241, 241);
+    border-right-style:solid;
+    border-right-width:15px;
+    border-top-color:rgb(255, 255, 255);
+    border-top-style:solid;
+    border-top-width:15px;
+    box-sizing:border-box;
+    display:block;
+    height:15px;
+    left:50%;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    padding-bottom:0px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:0px;
+    position:absolute;
+    transform:matrix(1, 0, 0, 1, -15, 0);
+    width:30px;
+    -webkit-box-direction:normal;
+    z-index: -1;
+}
+
+/**Finish strengths_weaknesses code**/
+
+/* About US */
+
+
+/* Footer styles */
+
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease-out;
+}
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+main {
+	width: 100%;
+	/* min-width: 768px; */
+	margin: 0 auto;
+}
+footer {
+	border-top: 2px solid #cacaca;
+	padding: 30px 0 45px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/* min-width: 768px; */
+	margin: 0 auto;
+}
+.group_name {
+	color: #b8b8b9;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.site_map {
+	margin-bottom: 30px;
+}
+.nav-footer{
+	color: #7f8284;
+	display: inline-block;
+	position: relative;
+    padding: 1px;
+}
+.site_map .nav-footer::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #14d9c4;
+	transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
+}
+.site_map a:hover  {
+    color: #14d9c4;
+}
+.site_map a:hover::before {
+	width: 100%;
+}
+.logo {
+	width: 116px;
+	height: 45px;
+	background-image: url(../photo/logo-adalab.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: 0 auto;
+}
+.nav {
+	text-align: center;
+}
+/* End of footer styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* CONTACT FORM */
+
+.contact-form input {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.contact-form {
+    margin: 10px auto;
+    padding: 0 20px;
+    max-width: 500px;
+    
+}
