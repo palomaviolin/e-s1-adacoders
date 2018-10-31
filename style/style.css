@@ -74,6 +74,7 @@ body {
     font-weight: bolder;
     display: inline-block;
     transform: scale(1.3);
+    transition: all 0.3s ease-out;
 }
 
 /*aqui seccion TEAM*/ 
@@ -98,6 +99,11 @@ body {
 }
 
 #team {
+    position: relative;
+    top: -100px;
+}
+
+#about-us {
     position: relative;
     top: -100px;
 }
