@@ -101,7 +101,7 @@ body {
 
 #team {
     position: relative;
-    top: -100px;
+    top: -108px;
 }
 
 
@@ -177,6 +177,11 @@ body{
 
 .about-us {
     background-color: #ffffff
+}
+
+#about-us {
+    position: relative;
+    top: -102px;
 }
 
 .section-title {
