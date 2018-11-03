@@ -332,6 +332,8 @@ footer {
 }
 /* End of footer styles */
 
+
+
 /* Contact page text */
 
 .contact {
@@ -363,25 +365,18 @@ footer {
 }
 
 
-
-
-
-
-
-
-
-
     /* CONTACT FORM */
 
 .contact-form input {
     display: block;
     width: 100%;
-    margin: 10px auto;
+    margin: 5px 0 0;
+    height: 45px;
+    padding: 10px;
 }
 
 .contact-form {
-    margin: 10px auto;
-    padding: 0 20px;
+    margin: 0 15px 15px;
     max-width: 500px;
     
 }
