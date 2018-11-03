@@ -107,75 +107,7 @@ body {
 }
 
 
-/**Start strengths_weaknesses code**/
 
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.container_strengths_weaknesses{
-   background-color:#f1f1f1;  
-   height: 100%;
-   overflow:hidden;
-}
-
-.title_strengths_weaknesses{
-    color:#099D8D;
-    font-size: 22px;
-    font-family: 'Rubik', sans-serif;
-}
-
-.text_strengths_weaknesses{
-    color:#54585A;
-    font-size:16px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.box_strengths{
-    box-sizing: border-box;
-    margin: 30px;
-    text-align: center;
-}
-
-.box_weaknesses{
-    box-sizing: border-box;
-    margin: 0px 20px 45px;
-    text-align: center;
-}
-
-.triangle{
-    border-left-color:rgb(241, 241, 241);
-    border-left-style:solid;
-    border-left-width:15px;
-    border-right-color:rgb(241, 241, 241);
-    border-right-style:solid;
-    border-right-width:15px;
-    border-top-color:rgb(255, 255, 255);
-    border-top-style:solid;
-    border-top-width:15px;
-    box-sizing:border-box;
-    display:block;
-    height:15px;
-    left:50%;
-    margin-bottom:0px;
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:0px;
-    padding-bottom:0px;
-    padding-left:0px;
-    padding-right:0px;
-    padding-top:0px;
-    position:absolute;
-    transform:matrix(1, 0, 0, 1, -15, 0);
-    width:30px;
-    -webkit-box-direction:normal;
-    z-index: 1;
-
-
-}
-
-/**Finish strengths_weaknesses code**/
 
 /* About US */
 
