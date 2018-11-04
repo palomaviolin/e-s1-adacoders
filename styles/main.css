@@ -8,6 +8,8 @@ body {
     padding: 0;
 }
 
+/*-----------HEADER------------*/ 
+
 .nav-contein {
     display: flex;
     position: fixed;
@@ -21,8 +23,9 @@ body {
     height: 60px;
     background-color: #099d8d;
     opacity: 0.94;  
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     font-family: 'Rubik', sans-serif;
     color: white;
 }
@@ -61,6 +64,12 @@ body {
      margin: -25px 15px 15px;
      background-color: #fff;
      text-align: center;
+     font-weight: bold;
+}
+
+.blockquote {
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links:hover {
@@ -69,7 +78,7 @@ body {
     transition: all 0.1s ease-out;
 }
 
-/* IMAGEN contact page*/
+ /* IMAGEN contact page*/
 
 .img-contact {
     height: 421px;
@@ -80,7 +89,52 @@ body {
     background-position: top;
 }
 
-/*aqui seccion TEAM*/ 
+/** for tablet **/
+@media (min-width:768px) {
+    .img-team {
+        background-position: top;  
+    }
+
+    .title-adacoders  {
+        justify-content: flex-start;
+        padding-left: 45px;
+    }
+
+    .nav-contein {
+        flex-direction: row;
+    }
+
+    .nav-menu {
+        height: 60px;
+        background-color: #099d8d;
+        justify-content: flex-end;
+        padding: 0 45px;
+    }
+
+    .nav-links {
+        padding: 0 15px;
+    }
+    
+    .claim {
+        padding: 15px 30px;
+        max-width: 441px;
+        margin: -80px 0 0 45px;
+        height: 80px;
+        background-color: rgba(255,255,255,0.7);
+    }
+}
+
+/** for desktop **/
+@media (min-width:1200px) { 
+    .img-team {
+        height: 550px;
+        background-position: top;  
+    }
+
+}
+
+
+/*-----------aqui seccion TEAM------------*/ 
 
 .first-section {
     text-align: center;
@@ -107,7 +161,7 @@ body {
 }
 
 
-/**Start strengths_weaknesses code**/
+/**-----Start strengths_weaknesses code-----**/
 
 body{
     margin: 0;
@@ -221,10 +275,9 @@ body{
     }
 }
 
-/**Finish strengths_weaknesses code**/
 
 
-/* About US */
+/*-------------- About US -----------------*/
 
 .about-us {
     background-color: #ffffff
@@ -366,7 +419,7 @@ img.member-photo {
 }
 
 
-/* Footer styles */
+/*------------- Footer styles -------------*/
 
 
 a {
@@ -436,7 +489,7 @@ footer {
 
 
 
-/* Contact page text */
+/*------------ Contact page text -----------*/
 
 .contact {
 	text-align: center;
