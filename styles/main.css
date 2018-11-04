@@ -116,7 +116,7 @@ body{
 
 .container_strengths_weaknesses{
    background-color:#f1f1f1;  
-   height: 100%;
+   width: 100%;
    overflow:hidden;
 }
 
@@ -132,16 +132,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.box_strengths{
+.box_strengths, .box_weaknesses{
     box-sizing: border-box;
-    margin: 30px;
     text-align: center;
-}
-
-.box_weaknesses{
-    box-sizing: border-box;
-    margin: 0px 20px 45px;
-    text-align: center;
+    display: inline-block;
 }
 
 .triangle{
@@ -171,11 +165,64 @@ body{
     width:30px;
     -webkit-box-direction:normal;
     z-index: 1;
+}
 
+@media (max-width:768px){ /** for mobile **/
 
+    .container_strengths_weaknesses{
+        padding-top: 30px;
+        padding-bottom: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_strengths, .box_weaknesses{
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .box_weaknesses{
+        padding-top: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px){ /** for tablet **/
+    
+    .container_strengths_weaknesses{
+        padding-top: 45px;
+        padding-bottom: 60px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box_strengths, .box_weaknesses{
+        padding: 15px;
+        width: 50%;
+    }
+}
+
+@media (min-width:1200px){ /** for desktop **/
+    
+    .container_strengths_weaknesses{
+        padding-top: 45px;
+        padding-bottom: 60px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box_strengths, .box_weaknesses{
+        padding: 22px;
+        width: 50%;
+    }
 }
 
 /**Finish strengths_weaknesses code**/
+
 
 /* About US */
 
@@ -193,8 +240,7 @@ body{
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 22px;
+    margin: 30px 0 26px 0;
     padding: 5px 0;
 }
 
@@ -213,11 +259,9 @@ img.member-photo {
     height: 188px;
     border: 4px solid #e0dfdf;
     border-radius: 8px;
-    box-sizing: border-box;
 }
 
 .member-info {
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 15px;
 }
@@ -231,19 +275,20 @@ img.member-photo {
 .member-description {
     color: #54585A;
     font-size: 16px;
+    margin: 0;
     padding: 5px 10px;
 }
 
-p.member-description {
-    margin: 0;
+.social-info {
+    margin: 15px 0 37px 0;
+    padding-left: 0;
 }
 
-.social-info {
-    text-align: center;
-    margin-bottom: 37px;
-    padding-top: 5px;
-    padding-left: 0;
-    display: block;
+.twitter, .linkedin, .github, .mail {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 3px;
 }
 
 .icon-link {
@@ -251,18 +296,75 @@ p.member-description {
     font-size: 16px;
 }
 
-.twitter, .linkedin, .github, .mail {
-    color: #099D8D;
-    font-size: 16px;
-    display: inline;
-    list-style: none;
-    text-decoration: none;
-}
-
 .decoration-point {
     color: #54585A;
-    margin: 0 3px;
     }
+
+@media (min-width:768px) { /** for tablet **/
+
+    .section-title {
+        margin: 45px 0 41px 0;
+    }
+
+    .member {
+        display: flex;
+        justify-content: center;
+        margin: 0 40px 60px 40px;
+    }
+
+    .member-1, .member-3, .member-5 {
+        flex-direction: row;
+    }
+
+    .member-2, .member-4 {
+        flex-direction: row-reverse;
+    }
+
+    img.member-photo {
+        width: 213px;
+        height: 213px;
+    }
+
+    .member-description {
+        padding: 5px 0;
+    }
+
+    .info-1, .info-3, .info-5 {
+        text-align: left;
+        margin: 15px 0 0 30px;
+    }
+
+    .info-2, .info-4 {
+        text-align: right;
+        margin: 15px 30px 0 0;
+    }
+
+    .social-info {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (min-width:1200px){ /** for desktop **/
+
+    img.member-photo {
+        width: 270px;
+        height: 270px;
+    }
+
+    .member-info {
+        max-width: 439px;
+    }
+
+    .info-1, .info-3, .info-5 {
+        margin: 15px 0 0 45px;
+    }
+
+    .info-2, .info-4 {
+        margin: 15px 45px 0 0;
+    }
+
+}
+
 
 /* Footer styles */
 
