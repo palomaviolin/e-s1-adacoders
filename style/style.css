@@ -378,5 +378,11 @@ footer {
 .contact-form {
     margin: 0 15px 15px;
     max-width: 500px;
-    
+}
+
+.message-form{
+    height: 105px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 0;
 }
