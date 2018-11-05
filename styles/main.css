@@ -225,6 +225,7 @@ body{
     box-sizing: border-box;
     text-align: center;
     display: inline-block;
+    padding: 0 20px;
 }
 
 .triangle{
