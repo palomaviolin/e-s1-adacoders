@@ -58,7 +58,7 @@ body {
 	width: 0;
 	height: 2px;
 	background-color: #fff;
-	transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
+    transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
 }
 .nav-links:hover::before {
 	width: 100%;
