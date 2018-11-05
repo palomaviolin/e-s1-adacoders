@@ -131,6 +131,13 @@ body {
         background-position: top;  
     }
 
+    .title-adacoders {
+        padding: 0 0 0 250px;
+    }
+
+    .nav-menu {
+        padding: 0 250px 0 0;
+    }
 }
 
 
