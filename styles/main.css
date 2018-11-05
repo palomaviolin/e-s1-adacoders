@@ -157,11 +157,15 @@ body {
 
 #team {
     position: relative;
-    top: -100px;
+    top: -108px;
 }
 
 @media all and (min-width:768px) {  /*tablet TEAM*/
 
+    #team {
+        position: relative;
+        top: -100px;
+    }
     .team {
         font-family: 'Rubik', sans-serif;
         color: #099D8D;
