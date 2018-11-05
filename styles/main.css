@@ -74,7 +74,7 @@ body {
     background: url(../images/team-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: left 60px;
 }
 
 .claim {
