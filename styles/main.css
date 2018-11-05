@@ -48,6 +48,20 @@ body {
 .nav-links {
     color: white;
     text-decoration: none;
+    position: relative;
+}
+.nav-links::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #fff;
+	transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
+}
+.nav-links:hover::before {
+	width: 100%;
 }
 
 .img-team{
@@ -70,12 +84,6 @@ body {
 .blockquote {
     margin: 0;
     padding: 0;
-}
-
-.nav-links:hover {
-    display: inline-block;
-    transform: scale(1.1);
-    transition: all 0.1s ease-out;
 }
 
  /* IMAGEN contact page*/
@@ -112,7 +120,7 @@ body {
     }
 
     .nav-links {
-        padding: 0 15px;
+        margin: 0 15px;
     }
     
     .claim {
