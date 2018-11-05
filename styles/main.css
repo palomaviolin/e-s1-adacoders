@@ -157,9 +157,40 @@ body {
 
 #team {
     position: relative;
-    top: -108px;
+    top: -100px;
 }
 
+@media all and (min-width:768px) {  /*tablet TEAM*/
+
+    .team {
+        font-family: 'Rubik', sans-serif;
+        color: #099D8D;
+        font-size: 24px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .description {
+        font-family: 'Open Sans', sans-serif;
+        color: #54585A;
+        font-size: 18px;
+        margin: 0 20px 60px;
+    }
+    }
+
+    @media all and (min-width:1200px){  /*desktop TEAM*/
+
+        .description {
+            width: 601px;
+            font-family: 'Open Sans', sans-serif;
+            color: #54585A;
+            font-size: 18px;
+            margin: 0 0 60px;
+            position: relative;
+            left:50%;
+            transform: translate(-50%,0);
+        }
+    }
 
 /**-----Start strengths_weaknesses code-----**/
 
