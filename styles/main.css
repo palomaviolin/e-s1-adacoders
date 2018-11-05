@@ -157,6 +157,7 @@ body {
 
 .first-section {
     text-align: center;
+    position: relative;
 }
 
 .team {
@@ -226,6 +227,13 @@ body{
    background-color:#f1f1f1;  
    width: 100%;
    overflow:hidden;
+   padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .title_strengths_weaknesses{
@@ -245,9 +253,30 @@ body{
     text-align: center;
     display: inline-block;
     padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
 }
 
-.triangle{
+.box_weaknesses{
+    padding-top: 30px;
+}
+
+.first-section:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 28px;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px white;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    z-index: 0;
+}
+
+/** .triangle{
     border-left-color:rgb(241, 241, 241);
     border-left-style:solid;
     border-left-width:15px;
@@ -273,33 +302,15 @@ body{
     transform:matrix(1, 0, 0, 1, -15, 0);
     width:30px;
     -webkit-box-direction:normal;
-    z-index: 1;
-}
-
-@media (max-width:768px){ /** for mobile **/
-
-    .container_strengths_weaknesses{
-        padding-top: 30px;
-        padding-bottom: 45px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box_strengths, .box_weaknesses{
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    .box_weaknesses{
-        padding-top: 30px;
-    }
-}
+    z-index: 1; 
+} **/
 
 @media (min-width:768px) and (max-width:1200px){ /** for tablet **/
     
+    .first-section:after {
+        margin-top: 58px;
+    }
+
     .container_strengths_weaknesses{
         padding-top: 45px;
         padding-bottom: 60px;
@@ -316,6 +327,10 @@ body{
 
 @media (min-width:1200px){ /** for desktop **/
     
+    .first-section:after {
+        margin-top: 60px;
+    }
+
     .container_strengths_weaknesses{
         padding-top: 45px;
         padding-bottom: 60px;
