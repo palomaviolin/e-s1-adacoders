@@ -86,7 +86,7 @@ body {
     background: url(../images/contact-photo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
 }
 
 /** for tablet **/
@@ -555,11 +555,13 @@ footer {
 }
 
 
-    /* CONTACT FORM */
+/* CONTACT FORM */
 form {
     color: #54585a;
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .contact-form input {
@@ -574,16 +576,6 @@ form {
     margin: 0 0 15px;
     max-width: 600px;
 }
-.contact-mail {
-    width: 395px;
-}
-.mail-phone_container {
-    display: flex;
-    justify-content: space-between;
-}
-.contact-phone {
-    width: 162px;
-}
 .message-form{
     resize: none;
     height: 105px;
@@ -596,18 +588,18 @@ form {
     color: #c7c7c7;
 }
 .button {
-    margin: 30px 0 120px;
-    width: 206px;
+    margin: 15px 0;
+    width: 100%;
     height: 45px;
     background-color: #14d9c4;
     border: none;
     border-radius: 5px;
     color: #fff;
     font-size: 18px;
-    float: right;
+    font-weight: 700;
     position: relative;
     overflow: hidden;
-    z-index: 2;
+    z-index: 1;
 }
 .button::before {
     content: "";
@@ -629,4 +621,35 @@ form {
 }
 .clear {
     clear: both;
+}
+@media (min-width:768px) { /* Contact page styles for tablet */
+    form {
+        max-width: 442px ;
+    }
+    .button {
+        width: 206px;
+        float: right;
+    }
+}
+@media (min-width:1200px) { /* Contact page styles for desktop */
+    .title {
+        margin: 45px 0 15px 0;
+    }
+    form {
+        width: 600px;
+        max-width: 600px;
+    }
+    .mail-phone_container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-mail {
+        width: 395px;
+    }
+    .contact-phone {
+        width: 162px;
+    }
+    .button {
+        margin: 15px 0 60px;
+    }
 }
