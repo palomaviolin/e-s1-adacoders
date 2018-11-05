@@ -276,35 +276,6 @@ body{
     z-index: 0;
 }
 
-/** .triangle{
-    border-left-color:rgb(241, 241, 241);
-    border-left-style:solid;
-    border-left-width:15px;
-    border-right-color:rgb(241, 241, 241);
-    border-right-style:solid;
-    border-right-width:15px;
-    border-top-color:rgb(255, 255, 255);
-    border-top-style:solid;
-    border-top-width:15px;
-    box-sizing:border-box;
-    display:block;
-    height:15px;
-    left:50%;
-    margin-bottom:0px;
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:0px;
-    padding-bottom:0px;
-    padding-left:0px;
-    padding-right:0px;
-    padding-top:0px;
-    position:absolute;
-    transform:matrix(1, 0, 0, 1, -15, 0);
-    width:30px;
-    -webkit-box-direction:normal;
-    z-index: 1; 
-} **/
-
 @media (min-width:768px) and (max-width:1200px){ /** for tablet **/
     
     .first-section:after {
