@@ -574,8 +574,18 @@ form {
     margin: 0 0 15px;
     max-width: 600px;
 }
-
+.contact-mail {
+    width: 395px;
+}
+.mail-phone_container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-phone {
+    width: 162px;
+}
 .message-form{
+    resize: none;
     height: 105px;
     width: 100%;
     padding: 10px;
@@ -616,7 +626,6 @@ form {
 }
 .button:hover::before {
     height: 45px;
-    z-index: 1;
 }
 .clear {
     clear: both;
