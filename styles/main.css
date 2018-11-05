@@ -30,6 +30,10 @@ body {
     color: white;
 }
 
+.title-adacoders a {
+    color: #fff;
+}
+
 .nav-menu {
     display: flex;
     width: 100%;
@@ -106,9 +110,6 @@ body {
     .title-adacoders  {
         justify-content: flex-start;
         padding-left: 45px;
-    }
-    .title-adacoders a {
-        color: #fff;
     }
 
     .nav-contein {
