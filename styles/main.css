@@ -378,21 +378,32 @@ img.member-photo {
     padding-left: 0;
 }
 
+.hide::before {
+    display: none;
+}
+
 .twitter, .linkedin, .github, .mail {
     display: inline;
     list-style: none;
     text-decoration: none;
-    padding: 3px;
+    padding: 8px;
 }
 
 .icon-link {
     color: #099D8D;
     font-size: 16px;
+    position: relative;
 }
 
-.decoration-point {
-    color: #54585A;
-    }
+.icon-link::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: #54585A;
+    top: 10px;
+    left: 24px;
+}
 
 @media (min-width:768px) { /** for tablet **/
 
