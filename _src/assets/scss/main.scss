@@ -413,9 +413,9 @@ img.member-photo {
     }
 
     .member {
+        margin-bottom: 60px;
         display: flex;
         justify-content: center;
-        margin: 0 40px 60px 40px;
     }
 
     .member-1, .member-3, .member-5 {
@@ -456,9 +456,20 @@ img.member-photo {
 
 @media (min-width:1200px){ /** for desktop **/
 
+    .list-of-members {
+        max-width: 924px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+    .member {
+        justify-content: flex-start;
+    }
+
     img.member-photo {
-        width: 270px;
-        height: 270px;
+        width: 286px;
+        height: 286px;
     }
 
     .info-1, .info-3, .info-5 {
