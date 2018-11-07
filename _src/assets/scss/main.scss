@@ -143,12 +143,28 @@ body {
         background-position: top;  
     }
 
-    .title-adacoders {
-        padding: 0 0 0 250px;
+    .nav-contein {
+        width: 921px;
     }
 
-    .nav-menu {
-        padding: 0 250px 0 0;
+    .title-adacoders, .nav-menu {
+        padding: 0;
+    }
+
+
+    .background-menu {
+        background-color: #099d8d;
+        opacity: 0.94;  
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .claim {
+        margin-left: 169px;
     }
 }
 
@@ -568,7 +584,7 @@ footer {
 @media (min-width:1200px) { /* Footer styles for desktop */
     .footer_container {
         padding: 0;
-        max-width: 755px;
+        max-width: 924px;
     }
 }
 
