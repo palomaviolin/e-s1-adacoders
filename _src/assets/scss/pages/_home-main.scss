@@ -1,0 +1,357 @@
+.first-section {
+    text-align: center;
+    position: relative;
+}
+
+.team {
+    font-family: $fontTitle;
+    color: $colorAdalab;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: $fontBody;
+    color: $colorText;
+    font-size: 18px;
+    margin: 0 20px 30px;
+}
+
+#team {
+    position: relative;
+    top: -108px;
+}
+
+@media all and (min-width:768px) {  /*tablet TEAM*/
+
+    #team {
+        position: relative;
+        top: -100px;
+    }
+    .team {
+        font-family: $fontTitle;
+        color: $colorAdalab;
+        font-size: 24px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+    
+    .description {
+        font-family: $fontBody;
+        color: $colorText;
+        font-size: 18px;
+        margin: 0 20px 60px;
+    }
+    }
+
+    @media all and (min-width:1200px){  /*desktop TEAM*/
+
+        .description {
+            width: 601px;
+            font-family: $fontBody;
+            color: $colorText;
+            font-size: 18px;
+            margin: 0 0 60px;
+            position: relative;
+            left:50%;
+            transform: translate(-50%,0);
+        }
+    }
+
+/**-----Start strengths_weaknesses code-----**/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section_strengths_weaknesses{
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.container_strengths_weaknesses{
+   background-color:#f1f1f1;  
+   width: 100%;
+   overflow:hidden;
+   padding-top: 30px;
+    padding-bottom: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.title_strengths_weaknesses{
+    color:#099D8D;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text_strengths_weaknesses{
+    color:#54585A;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box_strengths, .box_weaknesses{
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.box_weaknesses{
+    padding-top: 30px;
+}
+
+.first-section:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 28px;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-top: solid 15px white;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    z-index: 0;
+}
+
+.close_p{
+    margin: 0px;
+}
+
+@media (min-width:768px) and (max-width:1200px){ /** for tablet **/
+    
+   
+    .first-section:after {
+        margin-top: 58px;
+    }
+
+    .section_strengths_weaknesses {
+        width:100%;
+        background-color:#f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container_strengths_weaknesses{
+        padding-top: 45px;
+        padding-bottom: 60px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        width: 924px;
+    }
+
+    .box_strengths, .box_weaknesses{
+        padding: 15px;
+        width: 50%;
+    }
+
+    .box_strengths{
+        padding-left: 45px;
+    }
+
+    .box_weaknesses{
+        padding-right: 45px;
+        padding-left: 30px;
+    }
+}
+
+@media (min-width:1200px){ /** for desktop **/
+    
+    .first-section:after {
+        margin-top: 60px;
+    }
+
+    .container_strengths_weaknesses{
+        padding-top: 45px;
+        padding-bottom: 60px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box_strengths, .box_weaknesses{
+        padding: 22px;
+        width: 50%;
+    }
+
+    .box_weaknesses{
+        padding-left: 30px;
+    }
+}
+
+
+
+/*-------------- About US -----------------*/
+
+.about-us {
+    background-color: $backgroundColor;
+}
+
+#about-us {
+    position: relative;
+    top: -102px;
+}
+
+.section-title {
+    color: $colorAdalab;
+    font-family: $fontTitle;
+    font-size: 24px;
+    text-align: center;
+    margin: 30px 0 26px 0;
+    padding: 5px 0;
+}
+
+.list-of-members {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.member-photo {
+    text-align: center;
+}
+
+img.member-photo {
+    width: 188px;
+    height: 188px;
+    border: 4px solid #e0dfdf;
+    border-radius: 8px;
+}
+
+.member-info {
+    text-align: center;
+    margin: 15px;
+}
+
+.member-name {
+    color: #000000;
+    font-size: 20px;
+    margin: 0;
+}
+
+.member-description {
+    color: $colorText;
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.social-info {
+    margin: 15px 0 37px 0;
+    padding-left: 0;
+}
+
+.hide::before {
+    display: none;
+}
+
+.twitter, .linkedin, .github, .mail {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.icon-link {
+    color: $colorAdalab;
+    font-size: 16px;
+    position: relative;
+}
+
+.icon-link::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: $colorText;
+    top: 10px;
+    left: 24px;
+    border-radius: 50%;
+}
+
+@media (min-width:768px) { /** for tablet **/
+
+    .section-title {
+        margin: 45px 0 41px 0;
+    }
+
+    .member {
+        margin-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .member-1, .member-3, .member-5 {
+        flex-direction: row;
+    }
+
+    .member-2, .member-4 {
+        flex-direction: row-reverse;
+    }
+
+    img.member-photo {
+        width: 213px;
+        height: 213px;
+    }
+
+    .member-info {
+        max-width: 439px;
+    }
+    
+    .member-description {
+        padding: 5px 0;
+    }
+
+    .info-1, .info-3, .info-5 {
+        text-align: left;
+        margin: 15px 0 0 30px;
+    }
+
+    .info-2, .info-4 {
+        text-align: right;
+        margin: 15px 30px 0 0;
+    }
+
+    .social-info {
+        margin: 15px 0 0 0;
+    }
+}
+
+@media (min-width:1200px){ /** for desktop **/
+
+    .list-of-members {
+        max-width: 924px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+    }
+    
+    .member {
+        justify-content: flex-start;
+    }
+
+    img.member-photo {
+        width: 286px;
+        height: 286px;
+    }
+
+    .info-1, .info-3, .info-5 {
+        margin: 15px 0 0 45px;
+    }
+
+    .info-2, .info-4 {
+        margin: 15px 45px 0 0;
+    }
+
+}
