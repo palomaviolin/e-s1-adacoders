@@ -1,0 +1,27 @@
+.contact {
+	text-align: center;
+}
+.title {
+	font-family: Rubik, sans-serif;
+	color: $colorAdalab2;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 30px 0 15px 0;
+}
+.contact_text {
+	color: $colorText;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    text-align: center;
+	margin: 0 auto;
+	padding: 0 15px 15px;
+	max-width: 600px;
+}
+.contact_rule {
+	font-size: 12px;
+    color: #c7c7c7;
+    margin-bottom: 60px;
+}
+.green {
+	color: $colorAdalab2;
+}

@@ -1,0 +1,156 @@
+.nav-contein {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.title-adacoders {
+    width: 100%;
+    height: 60px;
+    background-color: $colorAdalab;
+    opacity: 0.94;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $fontTitle;
+    color: white;
+}
+
+.title-adacoders a {
+    color: $backgroundColor;
+}
+
+.nav-menu {
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: $colorAdalab2;
+    opacity: 0.94;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+.nav-links::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: $backgroundColor;
+    transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
+}
+.nav-links:hover::before {
+	width: 100%;
+}
+
+.img-team{
+    height: 421px;
+    width: 100%;
+    background: url(../images/team-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left 60px;
+}
+
+.claim {
+     padding: 15px;
+     margin: -25px 15px 15px;
+     background-color: $backgroundColor;
+     text-align: center;
+     font-weight: bold;
+}
+
+.blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+ /* IMAGEN contact page*/
+
+.img-contact {
+    height: 421px;
+    width: 100%;
+    background: url(../images/contact-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/** for tablet **/
+@media (min-width:768px) {
+    .img-team {
+        background-position: top;  
+    }
+
+    .title-adacoders  {
+        justify-content: flex-start;
+        padding-left: 45px;
+    }
+
+    .nav-contein {
+        flex-direction: row;
+    }
+
+    .nav-menu {
+        height: 60px;
+        background-color: $colorAdalab;
+        justify-content: flex-end;
+        padding: 0 45px;
+    }
+
+    .nav-links {
+        margin: 0 15px;
+    }
+    
+    .claim {
+        padding: 15px 30px;
+        max-width: 441px;
+        margin: -80px 0 0 45px;
+        height: 80px;
+        background-color: rgba(255,255,255,0.7);
+    }
+}
+
+/** for desktop **/
+@media (min-width:1200px) { 
+    .img-team {
+        height: 550px;
+        background-position: top;  
+    }
+
+    .nav-contein {
+        width: 921px;
+    }
+
+    .title-adacoders, .nav-menu {
+        padding: 0;
+    }
+
+    .background-menu {
+        background-color: $colorAdalab;
+        opacity: 0.94;  
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .claim {
+        margin-left: 169px;
+    }
+}
