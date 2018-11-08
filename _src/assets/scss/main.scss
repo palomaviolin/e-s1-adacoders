@@ -1,6 +1,8 @@
+@import 'core/variables';
+
 *{  
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontBody;
 }
 
 body {
@@ -21,17 +23,17 @@ body {
 .title-adacoders {
     width: 100%;
     height: 60px;
-    background-color: #099d8d;
+    background-color: $colorAdalab;
     opacity: 0.94;  
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Rubik', sans-serif;
+    font-family: $fontTitle;
     color: white;
 }
 
 .title-adacoders a {
-    color: #fff;
+    color: $backgroundColor;
 }
 
 .nav-menu {
@@ -41,7 +43,7 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: #14d9c4;
+    background-color: $colorAdalab2;
     opacity: 0.94;
     font-weight: bold;
     list-style: none;
@@ -61,7 +63,7 @@ body {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background-color: #fff;
+	background-color: $backgroundColor;
     transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
 }
 .nav-links:hover::before {
@@ -80,7 +82,7 @@ body {
 .claim {
      padding: 15px;
      margin: -25px 15px 15px;
-     background-color: #fff;
+     background-color: $backgroundColor;
      text-align: center;
      font-weight: bold;
 }
@@ -118,7 +120,7 @@ body {
 
     .nav-menu {
         height: 60px;
-        background-color: #099d8d;
+        background-color: $colorAdalab;
         justify-content: flex-end;
         padding: 0 45px;
     }
@@ -152,7 +154,7 @@ body {
     }
 
     .background-menu {
-        background-color: #099d8d;
+        background-color: $colorAdalab;
         opacity: 0.94;  
         width: 100%;
         height: 60px;
@@ -176,16 +178,16 @@ body {
 }
 
 .team {
-    font-family: 'Rubik', sans-serif;
-    color: #099D8D;
+    font-family: $fontTitle;
+    color: $colorAdalab;
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 15px;
 }
 
 .description {
-    font-family: 'Open Sans', sans-serif;
-    color: #54585A;
+    font-family: $fontBody;
+    color: $colorText;
     font-size: 18px;
     margin: 0 20px 30px;
 }
@@ -202,16 +204,16 @@ body {
         top: -100px;
     }
     .team {
-        font-family: 'Rubik', sans-serif;
-        color: #099D8D;
+        font-family: $fontTitle;
+        color: $colorAdalab;
         font-size: 24px;
         margin-top: 45px;
         margin-bottom: 15px;
     }
     
     .description {
-        font-family: 'Open Sans', sans-serif;
-        color: #54585A;
+        font-family: $fontBody;
+        color: $colorText;
         font-size: 18px;
         margin: 0 20px 60px;
     }
@@ -221,8 +223,8 @@ body {
 
         .description {
             width: 601px;
-            font-family: 'Open Sans', sans-serif;
-            color: #54585A;
+            font-family: $fontBody;
+            color: $colorText;
             font-size: 18px;
             margin: 0 0 60px;
             position: relative;
@@ -252,15 +254,15 @@ body{
 }
 
 .title_strengths_weaknesses{
-    color:#099D8D;
+    color:$colorAdalab;
     font-size: 22px;
-    font-family: 'Rubik', sans-serif;
+    font-family: $fontTitle;
 }
 
 .text_strengths_weaknesses{
-    color:#54585A;
+    color:$colorText;
     font-size:16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontBody;
 }
 
 .box_strengths, .box_weaknesses{
@@ -340,7 +342,7 @@ body{
 /*-------------- About US -----------------*/
 
 .about-us {
-    background-color: #ffffff
+    background-color: $backgroundColor;
 }
 
 #about-us {
@@ -349,8 +351,8 @@ body{
 }
 
 .section-title {
-    color: #099D8D;
-    font-family: 'Rubik', sans-serif;
+    color: $colorAdalab;
+    font-family: $fontTitle;
     font-size: 24px;
     text-align: center;
     margin: 30px 0 26px 0;
@@ -386,7 +388,7 @@ img.member-photo {
 }
 
 .member-description {
-    color: #54585A;
+    color: $colorText;
     font-size: 16px;
     margin: 0;
     padding: 5px 10px;
@@ -409,7 +411,7 @@ img.member-photo {
 }
 
 .icon-link {
-    color: #099D8D;
+    color: $colorAdalab;
     font-size: 16px;
     position: relative;
 }
@@ -419,7 +421,7 @@ img.member-photo {
     position: absolute;
     width: 2px;
     height: 2px;
-    background-color: #54585A;
+    background-color: $colorText;
     top: 10px;
     left: 24px;
     border-radius: 50%;
@@ -549,11 +551,11 @@ footer {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background-color: #14d9c4;
+	background-color: $colorAdalab2;
 	transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
 }
 .site_map a:hover  {
-    color: #14d9c4;
+    color: $colorAdalab2;
 }
 .site_map a:hover::before {
 	width: 100%;
@@ -614,13 +616,13 @@ footer {
 }
 .title {
 	font-family: Rubik, sans-serif;
-	color: #14d9c4;
+	color: $colorAdalab2;
 	font-weight: 500;
 	font-size: 24px;
 	margin: 30px 0 15px 0;
 }
 .contact_text {
-	color: #54585a;
+	color: $colorText;
     font-family: "Open Sans", sans-serif;
     line-height: 24px;
     text-align: center;
@@ -634,13 +636,13 @@ footer {
     margin-bottom: 60px;
 }
 .green {
-	color: #14d9c4;
+	color: $colorAdalab2;
 }
 
 
 /* CONTACT FORM */
 form {
-    color: #54585a;
+    color: $colorText;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -676,10 +678,10 @@ form {
     margin: 15px 0;
     width: 100%;
     height: 45px;
-    background-color: #14d9c4;
+    background-color: $colorAdalab2;
     border: none;
     border-radius: 5px;
-    color: #fff;
+    color: $backgroundColor;
     font-size: 18px;
     font-weight: 700;
     position: relative;
@@ -695,7 +697,7 @@ form {
     z-index: -1;
     top: 0;
     left: 0;
-    background-color: #099d8d;
+    background-color: $colorAdalab;
     transition: all 0.3s ease-in-out;
 }
 .button:hover {
