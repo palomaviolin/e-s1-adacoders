@@ -242,6 +242,11 @@ body{
     padding: 0;
 }
 
+.section_strengths_weaknesses{
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
 .container_strengths_weaknesses{
    background-color:#f1f1f1;  
    width: 100%;
@@ -305,12 +310,20 @@ body{
         margin-top: 58px;
     }
 
+    .section_strengths_weaknesses {
+        width:100%;
+        background-color:#f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
+
     .container_strengths_weaknesses{
         padding-top: 45px;
         padding-bottom: 60px;
-        margin: 0;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
+        width: 924px;
     }
 
     .box_strengths, .box_weaknesses{
@@ -325,12 +338,19 @@ body{
         margin-top: 60px;
     }
 
+    .section-grey {
+        width:100%;
+        background-color:#f1f1f1;
+        display: flex;
+        justify-content: center;
+    }
     .container_strengths_weaknesses{
         padding-top: 45px;
         padding-bottom: 60px;
-        margin: 0;
+        margin: 0 auto;
         display: flex;
         flex-direction: row;
+        width: 924px;
     }
 
     .box_strengths, .box_weaknesses{
