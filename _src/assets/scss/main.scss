@@ -326,6 +326,15 @@ body{
         padding: 15px;
         width: 50%;
     }
+
+    .box_strengths{
+        padding-left: 45px;
+    }
+
+    .box_weaknesses{
+        padding-right: 45px;
+        padding-left: 30px;
+    }
 }
 
 @media (min-width:1200px){ /** for desktop **/
@@ -352,6 +361,10 @@ body{
     .box_strengths, .box_weaknesses{
         padding: 22px;
         width: 50%;
+    }
+
+    .box_weaknesses{
+        padding-left: 30px;
     }
 }
 
