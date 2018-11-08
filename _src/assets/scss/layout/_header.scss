@@ -73,6 +73,10 @@
      font-weight: bold;
 }
 
+.hidden-claim {
+    display: none;
+}
+
 .blockquote {
     margin: 0;
     padding: 0;
@@ -152,9 +156,5 @@
 
     .claim {
         margin-left: 169px;
-    }
-
-    .hidden-claim {
-        display: none;
     }
 }
