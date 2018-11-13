@@ -523,8 +523,18 @@ img.member-photo {
         transform: translate(-50%,0);
     }
     
-    .member {
-        justify-content: flex-start;
+    // .member {
+    //     justify-content: flex-start;
+    // }
+
+    .member-1, .member-3, .member-5 {
+        grid-template-columns: 286px 439px;
+        grid-column-gap: 45px;
+    }
+
+    .member-2, .member-4 {
+        grid-template-columns: 439px 286px;
+        grid-column-gap: 45px;
     }
 
     img.member-photo {
