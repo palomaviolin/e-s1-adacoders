@@ -14,7 +14,7 @@
 .description {
     font-family: $fontBody;
     color: $colorText;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 20px 30px;
 }
 
@@ -38,20 +38,22 @@
     }
     
     .description {
+        position:relative;
+        max-width: 601px;
         font-family: $fontBody;
         color: $colorText;
-        font-size: 18px;
-        margin: 0 20px 60px;
+        margin-bottom:60px;
+        margin-left:auto;
+        margin-right:auto;
+
     }
     }
 
     @media all and (min-width:1200px){  /*desktop TEAM*/
 
         .description {
-            width: 601px;
             font-family: $fontBody;
             color: $colorText;
-            font-size: 18px;
             margin: 0 0 60px;
             position: relative;
             left:50%;
