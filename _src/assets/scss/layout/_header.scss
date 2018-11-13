@@ -16,6 +16,7 @@
     align-items: center;
     font-family: $fontTitle;
     color: white;
+    text-transform: uppercase;
 }
 
 .title-adacoders a {
@@ -41,6 +42,7 @@
     color: white;
     text-decoration: none;
     position: relative;
+    text-transform: uppercase;
 }
 .img-team{
     height: 421px;
@@ -98,7 +100,7 @@
         height: 60px;
         background-color: $colorAdalab;
         justify-content: flex-end;
-        padding: 0 45px;
+        padding-right: 30px;
     }
 
     .nav-links {
