@@ -42,20 +42,6 @@
     text-decoration: none;
     position: relative;
 }
-.nav-links::before {
-	content: '';
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0;
-	height: 2px;
-	background-color: $backgroundColor;
-    transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
-}
-.nav-links:hover::before {
-	width: 100%;
-}
-
 .img-team{
     height: 421px;
     width: 100%;
@@ -125,6 +111,19 @@
         margin: -80px 0 0 45px;
         height: 80px;
         background-color: rgba(255,255,255,0.7);
+    }
+    .nav-links::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $backgroundColor;
+        transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
+    }
+    .nav-links:hover::before {
+        width: 100%;
     }
 }
 
