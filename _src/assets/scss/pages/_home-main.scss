@@ -20,14 +20,14 @@
 
 #team {
     position: relative;
-    top: -108px;
+    top: -140px;
 }
 
 @media all and (min-width:768px) {  /*tablet TEAM*/
 
     #team {
         position: relative;
-        top: -100px;
+        top: -105px;
     }
     .team {
         font-family: $fontTitle;
@@ -201,7 +201,7 @@ body{
 
 #about-us {
     position: relative;
-    top: -102px;
+    top: -136px;
 }
 
 .section-title {
@@ -283,6 +283,10 @@ img.member-photo {
 
 @media (min-width:768px) { /** for tablet **/
 
+    #about-us {
+        top: -102px;
+    }
+    
     .section-title {
         margin: 45px 0 41px 0;
     }
