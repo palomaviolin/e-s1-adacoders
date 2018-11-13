@@ -21,7 +21,9 @@
 
 .title-adacoders a {
     color: $backgroundColor;
+    font-size: 16px;
 }
+
 
 .nav-menu {
     display: flex;
@@ -43,6 +45,7 @@
     text-decoration: none;
     position: relative;
     text-transform: uppercase;
+    font-size: 15px;
 }
 .nav-links::before {
 	content: '';
@@ -73,6 +76,9 @@
      background-color: $backgroundColor;
      text-align: center;
      font-weight: bold;
+     font-size: 18px;
+     font-family: $fontBody;
+     $fontBody: 'Open Sans', sans-serif;
 }
 
 .hidden-claim {
@@ -158,5 +164,6 @@
 
     .claim {
         margin-left: 169px;
+        font-size: 24px;
     }
 }
