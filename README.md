@@ -1,5 +1,27 @@
-![Adalab](images/logo-adalab-80px.png)
-# Adalab web starter kit
+
+![](images/coollogo.png)
+
+This repository gives access to a web which is the first project of ADACODERS team. Our team is formed by five enthusiastic women from Adalab environment, a foundation that promotes women working at tech and programming.
+
+You can enter our website to discover more about us, about ADACODERS and who we are and what are we interested in. Furthermore, entering the website you will have the possibility to contact us.
+
+>### ENTER ADACODERS WEBSITE: http://beta.adalab.es/e-s1-Adacoders/
+
+# Little guide to use this repository in your computer:
+1. Clone the repository from GitHub in your computer. Copy the repo link and paste it in your terminal after the command *git clone*, then press enter.
+
+![](images/url_clone.png)
+![](images/git_clone.png)
+
+2. Write **npm install** and press enter, in order to activate the **Gulp tasks** that are included in the “Adalab web starter kit” which contains gulp tasks.
+
+![](images/npm_install.png)
+
+3. After these steps, your cloned repository is ready to use! And please don’t forget to make a “pull request” of your branch with modifications. Thanks ;)
+
+# How to use the “Adalab starter kit” gulp package included in the repository:
+
+## Adalab web starter kit
 Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
 Incluye SCSS, un sistema de plantillas HTMl y un web server.
 
