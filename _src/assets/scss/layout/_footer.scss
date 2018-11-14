@@ -58,7 +58,8 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         position: relative;
-        padding: 0 40px;
+		padding: 0 40px;
+		max-width: 924px;
     }
     .site_map {
         margin-bottom: 0;
@@ -93,6 +94,5 @@ footer {
 @media (min-width:1200px) { /* Footer styles for desktop */
     .footer_container {
         padding: 0;
-        max-width: 924px;
     }
 }
