@@ -5,7 +5,7 @@
 
 .team {
   font-family: $fontTitle;
-  font-weight: 500;
+  font-weight: $font-weight-medium;
   color: $colorAdalab;
   font-size: 24px;
   margin-top: 30px;
@@ -92,6 +92,7 @@ body {
 .title_strengths_weaknesses {
   color: #099D8D;
   font-size: 22px;
+  font-weight:$font-weight-medium;
   font-family: 'Rubik', sans-serif;
 }
 
@@ -221,7 +222,7 @@ body {
     color: $colorAdalab;
     font-family: $fontTitle;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: $font-weight-medium;
     line-height: 1.88;
     text-align: center;
     text-transform: uppercase;
@@ -255,7 +256,7 @@ body {
     margin: 0;
     color: #000;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: $font-weight-normal;
     line-height: 2.25;
 }
 
@@ -263,7 +264,7 @@ body {
     margin: 0;
     color: $colorText;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: $font-weight-normal;
     line-height: 1.5;
 }
 
@@ -281,7 +282,7 @@ body {
     padding: 8px;
     color: $colorAdalab;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: $font-weight-normal;
     line-height: 1.88;
     display: inline-block;
     position: relative;
