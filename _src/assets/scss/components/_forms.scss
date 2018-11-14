@@ -4,10 +4,17 @@ form {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 15px;
+
 }
 
 input {
-    border: 1px solid #dcdcdc;
+    border: .5px solid #dcdcdc;
+    border-radius: 10px;
+    outline-style: none;
+}
+
+input:focus {
+    border-bottom: 4px solid $colorAdalab2;
 }
 
 .contact-form input {
