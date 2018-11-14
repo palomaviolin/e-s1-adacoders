@@ -19,7 +19,7 @@
 }
 .reveal__block {
   width: 0%;
-  background-color: #fff;
+  background-color: $color-light;
   animation: reveal 1s ease-in-out;
 }
 @keyframes down {
@@ -58,7 +58,7 @@
 }
 .social-info__link:hover {
   .fab, .fas {
-    color: #14d9c4;
+    color: $color-secondary;
     transform: scale(1.1);
   }
 } 

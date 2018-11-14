@@ -81,14 +81,14 @@ footer {
 		left: 0;
 		width: 0;
 		height: 2px;
-		background-color: $colorAdalab2;
+		background-color: $color-secondary;
 		transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
 	}
 	.site_map a:hover::before {
 		width: 100%;
 	}
 	.site_map a:hover  {
-		color: $colorAdalab2;
+		color: $color-secondary;
 	}
 }
 @media (min-width:1200px) { /* Footer styles for desktop */

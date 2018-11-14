@@ -6,7 +6,7 @@
 .team {
   font-family: $fontTitle;
   font-weight: $font-weight-medium;
-  color: $colorAdalab;
+  color: $color-primary;
   font-size: 24px;
   margin-top: 30px;
   margin-bottom: 15px;
@@ -14,7 +14,7 @@
 
 .description {
   font-family: $fontBody;
-  color: $colorText;
+  color: $color-dark;
   font-size: 16px;
   margin: 0 20px 30px;
 }
@@ -34,7 +34,7 @@
 
   .team {
     font-family: $fontTitle;
-    color: $colorAdalab;
+    color: $color-primary;
     font-size: 24px;
     margin-top: 45px;
     margin-bottom: 15px;
@@ -43,7 +43,7 @@
   .description {
     max-width: 601px;
     font-family: $fontBody;
-    color: $colorText;
+    color: $color-dark;
     margin-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -56,7 +56,7 @@
 
   .description {
     font-family: $fontBody;
-    color: $colorText;
+    color: $color-dark;
     margin: 0 0 60px;
     position: relative;
     left: 50%;
@@ -72,12 +72,12 @@ body {
 }
 
 .section_strengths_weaknesses {
-  background-color: $backgroundColor-Strengths;
+  background-color: $color-light-medium;
   width: 100%;
 }
 
 .container_strengths_weaknesses {
-  background-color: $backgroundColor-Strengths;
+  background-color: $color-light-medium;
   width: 100%;
   overflow: hidden;
   padding-top: 30px;
@@ -90,7 +90,7 @@ body {
 }
 
 .title_strengths_weaknesses {
-  color: $colorAdalab;
+  color: $color-primary;
   font-size: 22px;
   font-weight: $font-weight-medium;
   font-family: $fontTitle;
@@ -99,7 +99,7 @@ body {
 }
 
 .text_strengths_weaknesses {
-  color: $colorText;
+  color: $color-dark;
   font-size: 16px;
   font-family: $fontBody;
 }
@@ -127,7 +127,7 @@ body {
   margin-left: -15px;
   width: 0;
   height: 0;
-  border-top: solid 15px $backgroundColor;
+  border-top: solid 15px $color-light;
   border-left: solid 15px transparent;
   border-right: solid 15px transparent;
   z-index: 0;
@@ -147,7 +147,7 @@ body {
 
   .section_strengths_weaknesses {
     width: 100%;
-    background-color: $backgroundColor-Strengths;
+    background-color: $color-light-medium;
     display: flex;
     justify-content: center;
   }
@@ -209,7 +209,7 @@ body {
 
 
 .about-us {
-  background-color: $backgroundColor;
+  background-color: $color-light;
 }
 
 #about-us {
@@ -221,7 +221,7 @@ body {
 
 .about-us__title {
     margin: 30px 0 25px 0;
-    color: $colorAdalab;
+    color: $color-primary;
     font-family: $fontTitle;
     font-size: 24px;
     font-weight: $font-weight-medium;
@@ -264,7 +264,7 @@ body {
 
 .member__bio {
     margin: 0;
-    color: $colorText;
+    color: $color-dark;
     font-size: 16px;
     font-weight: $font-weight-normal;
     line-height: 1.5;
@@ -282,7 +282,7 @@ body {
 
 .social-info__link {
     padding: 8px;
-    color: $colorAdalab;
+    color: $color-primary;
     font-size: 16px;
     font-weight: $font-weight-normal;
     line-height: 1.88;
@@ -295,7 +295,7 @@ body {
     position: absolute;
     width: 2px;
     height: 2px;
-    background-color: $colorText;
+    background-color: $color-dark;
     top: 22px;
     left: 32px;
     border-radius: 50%;

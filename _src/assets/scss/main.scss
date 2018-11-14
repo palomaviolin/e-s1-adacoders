@@ -10,7 +10,9 @@ body {
     padding: 0;
 }
 
+/*-----------Animation------------*/ 
 
+@import 'components/animation';
 /*-----------HEADER------------*/ 
 
 @import 'layout/header';
@@ -27,10 +29,7 @@ body {
 
 @import 'pages/contact-main';
 
-/*-----------Home main section------------*/ 
+/*-----------Home /main section------------*/ 
 
 @import 'pages/home-main';
 
-/*-----------Animation------------*/ 
-
-@import 'components/animation';

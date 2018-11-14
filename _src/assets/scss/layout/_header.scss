@@ -9,17 +9,17 @@
 .title-adacoders {
     width: 100%;
     height: 60px;
-    background-color: $colorAdalab;
+    background-color: $color-primary;
     opacity: 0.94;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: $color-light;
     text-transform: uppercase;
 }
 
 .title-adacoders a {
-    color: $backgroundColor;
+    color: $color-light;
     font-size: 16px;
     font-family: $fontTitle;
     font-weight: $font-weight-medium;
@@ -32,7 +32,7 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: $colorAdalab2;
+    background-color: $color-secondary;
     opacity: 0.94;
     list-style: none;
     padding: 0;
@@ -40,7 +40,7 @@
 }
 
 .nav-links {
-    color: white;
+    color: $color-light;
     text-decoration: none;
     position: relative;
     text-transform: uppercase;
@@ -61,7 +61,7 @@
 .claim {
     padding: 15px;
     margin: -25px 15px 15px;
-    background-color: $backgroundColor;
+    background-color: $color-light;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
@@ -81,7 +81,7 @@
 /* IMAGEN contact page*/
 
 .img-contact {
-    height: 421px;
+    height: 300px;
     width: 100%;
     background: url(../images/contact-photo.jpg);
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@
     }
     .nav-menu {
         height: 60px;
-        background-color: $colorAdalab;
+        background-color: $color-primary;
         justify-content: flex-end;
         padding-right: 30px;
     }
@@ -113,7 +113,7 @@
         margin: 0 15px;
     }
     .background-menu {
-        background-color: $colorAdalab;
+        background-color: $color-primary;
         opacity: 0.94;
         width: 100%;
         height: 60px;
@@ -137,6 +137,8 @@
         padding: 0 45px;
         margin: -80px auto 0;
     }
+
+    
 }
 
 /** for desktop **/
@@ -160,7 +162,7 @@
         left: 0;
         width: 0;
         height: 2px;
-        background-color: $backgroundColor;
+        background-color: $color-light;
         transition: width cubic-bezier(0.1, 0.79, 0.24, 0.93) 0.3s;
     }
     .nav-links:hover::before {
@@ -177,5 +179,9 @@
         max-width: 924px;
         padding: 0 45px;
         position: relative;
+    }
+
+    .img-contact {
+        height: 400px;
     }
 }
