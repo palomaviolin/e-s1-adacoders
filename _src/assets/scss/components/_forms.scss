@@ -10,12 +10,12 @@ input {
     border: .5px solid #dcdcdc;
     border-radius: 10px;
     outline-style: none;
-    font-size:16px;
-    color: $color-dark; 
+    font-size: 16px;
+    color: $color-dark;
 }
 
 label {
-    font-size:14px;
+    font-size: 14px;
     color: $color-dark;
 }
 
@@ -24,7 +24,7 @@ textarea {
     border-radius: 10px;
     outline-style: none;
     color: $color-dark;
-    font-size:16px;
+    font-size: 16px;
 }
 
 input:focus {
@@ -85,9 +85,11 @@ input:focus {
     background-color: $color-primary;
     transition: all 0.3s ease-in-out;
 }
+
 .button:hover {
     cursor: pointer;
 }
+
 .button:hover::before {
     height: 45px;
 }
