@@ -221,7 +221,7 @@ body{
 }
 
 .list-of-members {
-    margin: 15px;
+    margin: 0 15px;
     padding: 0;
     list-style: none;
 }
@@ -248,7 +248,7 @@ body{
     margin: 0;
     color: #000;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 2.25;
 }
 
@@ -304,63 +304,55 @@ body{
     }
     
     .about-us__title {
-        margin: 45px 0 41px 0;
+        margin: 45px 0 40px 0;
     }
 
     .list-of-members {
         max-width: 924px;
-        position: relative;
-        left: 50%;
-        transform: translate(-50%,0);
+        margin: 0 auto;
     }
 
     .member {
-        margin-bottom: 60px;
+        margin-bottom: 47px;
         display: grid;
+        grid-column-gap: 25px;
         justify-content: center;
     }
 
     .member-1, .member-3, .member-5 {
-        grid-template-columns: 213px 439px;
-        grid-column-gap: 30px;
+        grid-template-columns: 215px 439px;
     }
 
     .member-2, .member-4 {
-        grid-template-columns: 439px 213px;
-        grid-column-gap: 30px;
+        grid-template-columns: 439px 215px;   
+    }
+
+    .member__photo-container {
+        width: 215px;
+        height: 215px;
     }
 
     .photo-2, .photo-4 {
         grid-column: 2 / 3;
     }
 
-    .member__photo {
-        width: 213px;
-        height: 213px;
-    }
-
     .member__info {
         max-width: 439px;
-    }
-    
-    .member__bio {
-        padding: 5px 0;
+        padding: 5px 0 0 0;
     }
 
     .info-1, .info-3, .info-5 {
         text-align: left;
-        margin-top: 15px;
     }
 
     .info-2, .info-4 {
         text-align: right;
-        margin-top: 15px;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
     .member__social-info {
-        margin: 15px 0 0 0;
+        margin: 10px 0 0 -8px;
     }
 }
 
@@ -368,33 +360,22 @@ body{
 
 @media all and (min-width:1200px) {
 
-    .list-of-members {
-        max-width: 924px;
-        position: relative;
-        left: 50%;
-        transform: translate(-50%,0);
+    .member {
+        grid-column-gap: 40px;
     }
 
     .member-1, .member-3, .member-5 {
-        grid-template-columns: 286px 439px;
-        grid-column-gap: 45px;
+        grid-template-columns: 288px 439px;
+        justify-content: flex-start;
     }
 
     .member-2, .member-4 {
-        grid-template-columns: 439px 286px;
-        grid-column-gap: 45px;
+        grid-template-columns: 439px 288px;
+        justify-content: flex-end;
     }
 
-    .member__photo {
-        width: 286px;
-        height: 286px;
-    }
-
-    .info-1, .info-3, .info-5 {
-        margin: 15px 0 0 45px;
-    }
-
-    .info-2, .info-4 {
-        margin: 15px 45px 0 0;
+    .member__photo-container {
+        width: 288px;
+        height: 288px;
     }
 }
