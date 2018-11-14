@@ -2,12 +2,15 @@
 
 *{  
     box-sizing: border-box;
-    font-family: $fontBody;
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: $fontBody;
+    font-weight: $font-weight-normal;
+    background-color: $color-light;
+    font-size:16px;
 }
 
 /*-----------Animation------------*/ 
