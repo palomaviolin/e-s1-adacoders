@@ -194,7 +194,6 @@ body{
 }
 
 
-
 /*-------------- About us -----------------*/
 
 
@@ -261,7 +260,7 @@ body{
 }
 
 .member__social-info {
-    margin: 15px 0 37px 0;
+    margin: 15px 0 35px 0;
     padding: 0;
     list-style: none;
 }
@@ -313,18 +312,18 @@ body{
     }
 
     .member {
-        margin-bottom: 47px;
+        margin-bottom: 50px;
         display: grid;
         grid-column-gap: 25px;
         justify-content: center;
     }
 
-    .member-1, .member-3, .member-5 {
-        grid-template-columns: 215px 439px;
+    .member1, .member3, .member5 {
+        grid-template-columns: 215px minmax(auto, 439px);
     }
 
-    .member-2, .member-4 {
-        grid-template-columns: 439px 215px;   
+    .member2, .member4 {
+        grid-template-columns: minmax(auto, 439px) 215px;   
     }
 
     .member__photo-container {
@@ -332,7 +331,7 @@ body{
         height: 215px;
     }
 
-    .photo-2, .photo-4 {
+    .photo2, .photo4 {
         grid-column: 2 / 3;
     }
 
@@ -341,18 +340,27 @@ body{
         padding: 5px 0 0 0;
     }
 
-    .info-1, .info-3, .info-5 {
+    .info1, .info3, .info5 {
         text-align: left;
     }
 
-    .info-2, .info-4 {
+    .info2, .info4 {
         text-align: right;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
 
     .member__social-info {
-        margin: 10px 0 0 -8px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .social-info1, .social-info3, .social-info5 {
+        margin-left: -8px;
+    }
+
+    .social-info2, .social-info4 {
+        margin-right: -8px;
     }
 }
 
@@ -364,13 +372,13 @@ body{
         grid-column-gap: 40px;
     }
 
-    .member-1, .member-3, .member-5 {
-        grid-template-columns: 288px 439px;
+    .member1, .member3, .member5 {
+        grid-template-columns: 288px minmax(auto, 439px);
         justify-content: flex-start;
     }
 
-    .member-2, .member-4 {
-        grid-template-columns: 439px 288px;
+    .member2, .member4 {
+        grid-template-columns: minmax(auto, 439px) 288px;
         justify-content: flex-end;
     }
 
