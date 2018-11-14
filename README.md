@@ -66,11 +66,3 @@ Is included the package [**gulp-combine-mq**](https://www.npmjs.com/package/gulp
 
 ## JS
 The JSON with configuration specifies the JS files we use and the order they must process theirselves.
-
-
-# Extra information:
-
-> ### Only the first time that we use the repository in each computer:
-- Install node.
-- We install the gulp command in all the computer so as to use it in all folders, by using `npm install --global gulp-cli`
-
