@@ -7,59 +7,43 @@ You can enter our website to discover more about us, about ADACODERS and who we 
 
 >### ENTER ADACODERS WEBSITE: http://beta.adalab.es/e-s1-Adacoders/
 
-# Little guide to use this repository in your computer:
+# Quick start guide to use this repository in your computer:
+
+This project contains a node/gulp package with SCSS, a system of HTML templates and a web server. You need to install [Node.js](https://nodejs.org/) and [Gulp](https://gulpjs.com) to work with this repository, then follow the steps below.
+
+>#### If you don't have the gulp command, you must install it in all the computer so as to use it in all folders, by using `npm install --global gulp-cli`
+
 1. Clone the repository from GitHub in your computer. Copy the repo link and paste it in your terminal after the command *git clone*, then press enter.
 
 ![](images/url_clone.png)
 ![](images/git_clone.png)
 
-2. Write **npm install** and press enter, in order to activate the **Gulp tasks** that are included in the “Adalab web starter kit” which contains gulp tasks.
+2. Write `$ npm install` and press enter, in order to activate the **Gulp tasks** that are included in the project. (**npm install** to install the necessary packages to convert SASS to CSS, minify, etc). Also you start the repo with `$ gulp` 
+Note: We have incorporated the gulp package from Adalab: [Adalab web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
 
 ![](images/npm_install.png)
 
 3. After these steps, your cloned repository is ready to use! And please don’t forget to make a “pull request” of your branch with modifications. Thanks ;)
 
-# How to use the “Adalab starter kit” gulp package included in the repository:
+> ### While we are working with our code: From our term we use command `gulp` to activate its task by default, that in the case of `gulpfile.js` that we have in this project it would be pending of our folders of Sass, html and JavaScript and it will compile them, minify them and/or refresh the browser each time we make a change.
 
-## Adalab web starter kit
-Ahoy! Esta es nuestro Starter Kit en node/gulp para este primer contacto con el desarrollo web
-Incluye SCSS, un sistema de plantillas HTMl y un web server.
+# Gulp tasks included:
 
-## Guía de inicio rápido
-Necesitarás instalar [Node.js](https://nodejs.org/) y [Gulp](https://gulpjs.com) para trabajar con este Starter Kit, luego:
-1. Descarga o clona el repositorio
-2. Instala las dependencias locales con `$ npm install`
-3. Arranca el kit con `$ gulp`
-
-## Espera, ¿esto se hace siempre?
-> ### Solo una vez al principio en cada ordenador que utilicemos:
-- Instalamos node
-- Instalamos el comando de gulp de forma global para poder usarlo desde cualquier carpeta usando `npm install --global gulp-cli`
-
-> ### Cada vez que descarguemos o clonemos un repo:
-- `npm install` para instalar los paquetes necesarios para convertir Sass a CSS, minizarlo, etc.
-
-> ### Cada vez que estemos trabajando con nuestro código:
-- Desde nuestra terminal, ejecutamos el comando `gulp` para que realice la tarea por defecto, que en el caso del `gulpfile.js` que tenemos en adalab-web-starter-kit estará pendiente de nuestros archivos Sass, html y JavaScript y los compilará, minificará y/o recargará el servidor cada vez que hagamos un cambio
-
-## Tareas de gulp incluidas
-### Inicio de un web server para desarrollo
+## Start of a web server for development
 ```
 $ gulp
 ```
-Lanza un webserver con BrowserSync y varios watchers estarán pendientes de los archivos SCSS/JS/HTML, en la carpeta **public/**, para recargar el navegador cuando se necesite.
+Initiates a web server with BrowserSync and a few watchers will be alert of SCSS/JS/HTML files, in the folder **public/**, to refresh the browser when necessary.
 
-### Versión lista para subir a producción
+## Version ready to upload to production
 ```
 $ gulp docs
 ```
-En la carpeta **docs/** genera los CSS y JS minimizados y sin sourcemaps listos para subir al repo y activar GitHub Pages en `master/docs`.
+Inside the docs/ folder generates CSS and JS minified and without sourcecamps ready to upload to the repository and activate GitHub Pages in `master/docs`.
 
-
-## Estructura del proyecto
-Nuestro **gulpfile.js** usa un JSON de configuración con las rutas de los archivos a generar/vigilar.
-
-La estructura de carpetas tiene esta pinta:
+## Structure of the gulp tasks package
+Gulpfile.js uses a JSON with configuration os the paths files to generate/watch.
+The structure of the folders looks like this:
 ```
 /
 `- _src
@@ -75,14 +59,18 @@ La estructura de carpetas tiene esta pinta:
 ```
 
 ## HTML
-Viene incluído el paquete [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) que nos va a permitir tener un sistema de plantillas html
+Is included the package [**gulp-html-partial**](https://www.npmjs.com/package/gulp-html-partial) that allows us to have a html templates system.
 
 ## CSS
-Viene incluído el paquete [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) que agrupa todas las medaqueries al final del documento css.
-
+Is included the package [**gulp-combine-mq**](https://www.npmjs.com/package/gulp-combine-mq) groups all media queries at the end of the CSS document.
 
 ## JS
-En el JSON de configuración especificamos los archivos JS que utilizamos y en el orden que deben procesarse.
+The JSON with configuration specifies the JS files we use and the order they must process theirselves.
 
-## Falta algo?
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de los Issues o si te animas a mejorarlo mándanos un PR :)
+
+# Extra information:
+
+> ### Only the first time that we use the repository in each computer:
+- Install node.
+- We install the gulp command in all the computer so as to use it in all folders, by using `npm install --global gulp-cli`
+
