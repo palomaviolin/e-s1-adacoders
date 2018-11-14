@@ -72,12 +72,12 @@ body {
 }
 
 .section_strengths_weaknesses {
-  background-color: #f1f1f1;
+  background-color: $backgroundColor-Strengths;
   width: 100%;
 }
 
 .container_strengths_weaknesses {
-  background-color: #f1f1f1;
+  background-color: $backgroundColor-Strengths;
   width: 100%;
   overflow: hidden;
   padding-top: 30px;
@@ -90,18 +90,18 @@ body {
 }
 
 .title_strengths_weaknesses {
-  color: #099D8D;
+  color: $colorAdalab;
   font-size: 22px;
-  font-weight:$font-weight-medium;
-  font-family: 'Rubik', sans-serif;
+  font-weight: $font-weight-medium;
+  font-family: $fontTitle;
   margin: 0;
   margin-bottom: 15px;
 }
 
 .text_strengths_weaknesses {
-  color: #54585A;
+  color: $colorText;
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $fontBody;
 }
 
 .box_strengths,
@@ -127,7 +127,7 @@ body {
   margin-left: -15px;
   width: 0;
   height: 0;
-  border-top: solid 15px white;
+  border-top: solid 15px $backgroundColor;
   border-left: solid 15px transparent;
   border-right: solid 15px transparent;
   z-index: 0;
@@ -147,7 +147,7 @@ body {
 
   .section_strengths_weaknesses {
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: $backgroundColor-Strengths;
     display: flex;
     justify-content: center;
   }
