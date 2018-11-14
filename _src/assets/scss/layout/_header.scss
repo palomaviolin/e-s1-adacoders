@@ -22,7 +22,7 @@
     color: $backgroundColor;
     font-size: 16px;
     font-family: $fontTitle;
-    font-weight: 500;
+    font-weight: $font-weight-medium;
 }
 
 .nav-menu {
@@ -46,7 +46,7 @@
     text-transform: uppercase;
     font-size: 15px;
     font-family: $fontTitle;
-    font-weight: 500;
+    font-weight: $font-weight-medium;
 }
 
 .img-team{
