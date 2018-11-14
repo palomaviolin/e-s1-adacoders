@@ -4,7 +4,6 @@ form {
     max-width: 600px;
     margin: 0 auto;
     padding: 0 15px;
-
 }
 
 input {
@@ -29,7 +28,8 @@ input:focus {
     margin: 0 0 15px;
     max-width: 600px;
 }
-.message-form{
+
+.message-form {
     resize: none;
     height: 105px;
     width: 100%;
@@ -37,10 +37,10 @@ input:focus {
     margin: 5px 0 0;
     border: 1px solid #dcdcdc;
 }
+
 ::placeholder {
     color: #c7c7c7;
 }
-
 
 .button {
     margin: 15px 0;
@@ -56,6 +56,7 @@ input:focus {
     overflow: hidden;
     z-index: 1;
 }
+
 .button::before {
     content: "";
     width: 100%;
@@ -74,19 +75,23 @@ input:focus {
 .button:hover::before {
     height: 45px;
 }
-.clear {
-    clear: both;
-}
-@media (min-width:768px) { /* Contact page styles for tablet */
+
+@media (min-width:768px) {
+    /* Contact page styles for tablet */
     form {
-        max-width: 442px ;
+        max-width: 442px;
     }
     .button {
         width: 206px;
-        float: right;
+    }
+    .button_container {
+        display: flex;
+        justify-content: flex-end;
     }
 }
-@media (min-width:1200px) { /* Contact page styles for desktop */
+
+@media (min-width:1200px) {
+    /* Contact page styles for desktop */
     .title {
         margin: 45px 0 15px 0;
     }
