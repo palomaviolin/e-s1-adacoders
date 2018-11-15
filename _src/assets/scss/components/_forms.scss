@@ -1,133 +1,119 @@
 form {
-    color: $color-dark;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 0 15px;
+  color: $color-dark;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-
 input {
-    border: .5px solid #dcdcdc;
-    border-radius: 10px;
-    outline-style: none;
-    font-size: 16px;
-    color: $color-dark;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 10px;
+  outline-style: none;
+  font-size: 16px;
+  color: $color-dark;
 }
-
 label {
-    font-size: 14px;
-    color: $color-dark;
+  font-size: 14px;
+  color: $color-dark;
 }
-
 textarea {
-    border: .5px solid #dcdcdc;
-    border-radius: 10px;
-    outline-style: none;
-    color: $color-dark;
-    font-size: 16px;
+  border: 0.5px solid #dcdcdc;
+  border-radius: 10px;
+  outline-style: none;
+  color: $color-dark;
+  font-size: 16px;
 }
-
 input:focus {
-    border-bottom: 4px solid $color-secondary;
+  border-bottom: 4px solid $color-secondary;
 }
-
 .contact-form input {
-    display: block;
-    width: 100%;
-    margin: 5px 0 0;
-    height: 45px;
-    padding: 10px;
+  display: block;
+  width: 100%;
+  margin: 5px 0 0;
+  height: 45px;
+  padding: 10px;
 }
-
 .contact-form {
-    margin: 0 0 15px;
-    max-width: 600px;
+  margin: 0 0 15px;
+  max-width: 600px;
 }
-
 .message-form {
-    resize: none;
-    height: 105px;
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 0;
-    border: 1px solid #dcdcdc;
+  resize: none;
+  height: 105px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 0;
+  border: 1px solid #dcdcdc;
 }
-
 ::placeholder {
-    color: #c7c7c7;
+  color: #c7c7c7;
 }
-
 .button {
-    margin: 15px 0;
-    width: 100%;
-    height: 45px;
-    background-color: $color-secondary;
-    border: none;
-    border-radius: 5px;
-    color: $color-light;
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+  margin: 15px 0;
+  width: 100%;
+  height: 45px;
+  background-color: $color-secondary;
+  border: none;
+  border-radius: 5px;
+  color: $color-light;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
-
 .button::before {
-    content: "";
-    width: 100%;
-    height: 0;
-    border-radius: 5px;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    background-color: $color-primary;
-    transition: all 0.3s ease-in-out;
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 5px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-color: $color-primary;
+  transition: all 0.3s ease-in-out;
 }
-
 .button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
 .button:hover::before {
-    height: 45px;
+  height: 45px;
 }
-
-@media (min-width:768px) {
-    /* Contact page styles for tablet */
-    form {
-        max-width: 442px;
-    }
-    .button {
-        width: 206px;
-    }
-    .button_container {
-        display: flex;
-        justify-content: flex-end;
-    }
+@media (min-width: 768px) {
+  /* Contact page styles for tablet */
+  form {
+    max-width: 442px;
+  }
+  .button {
+    width: 206px;
+  }
+  .button_container {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
-
-@media (min-width:1200px) {
-    /* Contact page styles for desktop */
-    .title {
-        margin: 45px 0 15px 0;
-    }
-    form {
-        width: 600px;
-        max-width: 600px;
-    }
-    .mail-phone_container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .contact-mail {
-        width: 395px;
-    }
-    .contact-phone {
-        width: 162px;
-    }
-    .button {
-        margin: 15px 0 60px;
-    }
+@media (min-width: 1200px) {
+  /* Contact page styles for desktop */
+  .title {
+    margin: 45px 0 15px 0;
+  }
+  form {
+    width: 600px;
+    max-width: 600px;
+  }
+  .mail-phone_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contact-mail {
+    width: 395px;
+  }
+  .contact-phone {
+    width: 162px;
+  }
+  .button {
+    margin: 15px 0 60px;
+  }
 }

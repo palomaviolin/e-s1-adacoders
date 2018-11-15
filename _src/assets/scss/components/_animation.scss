@@ -30,8 +30,8 @@
     transform: translateY(0);
   }
 }
-.background-menu{
-    animation: down 1s ease-in-out 1;
+.background-menu {
+  animation: down 1s ease-in-out 1;
 }
 @keyframes left {
   0% {
@@ -53,12 +53,14 @@
 .member__photo:hover {
   border-radius: 50%;
 }
-.fab, .fas {
-  transition: .4s ease-in-out;
+.fab,
+.fas {
+  transition: 0.4s ease-in-out;
 }
 .social-info__link:hover {
-  .fab, .fas {
+  .fab,
+  .fas {
     color: $color-secondary;
     transform: scale(1.1);
   }
-} 
+}
