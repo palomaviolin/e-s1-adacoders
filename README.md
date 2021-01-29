@@ -5,7 +5,7 @@ This repository gives access to a web which is the first project of ADACODERS te
 
 You can enter our website to discover more about us, about ADACODERS and who we are and what are we interested in. Furthermore, entering the website you will have the possibility to contact us.
 
->### ENTER ADACODERS WEBSITE: http://beta.adalab.es/e-s1-Adacoders/
+>### [ENTER ADACODERS WEBSITE](http://palomaviolin.github.io/e-s1-adacoders/)
 
 # Quick start guide to use this repository in your computer:
 
@@ -18,7 +18,7 @@ This project contains a node/gulp package with SCSS, a system of HTML templates 
 ![](images/url_clone.png)
 ![](images/git_clone.png)
 
-2. Write `$ npm install` and press enter, in order to activate the **Gulp tasks** that are included in the project. (**npm install** to install the necessary packages to convert SASS to CSS, minify, etc). Also you start the repo with `$ gulp` 
+2. Write `$ npm install` and press enter, in order to activate the **Gulp tasks** that are included in the project. (**npm install** to install the necessary packages to convert SASS to CSS, minify, etc). Also you start the repo with `$ gulp`
 Note: We have incorporated the gulp package from Adalab: [Adalab web starter kit](https://github.com/Adalab/Adalab-web-starter-kit).
 
 ![](images/npm_install.png)
